@@ -1,0 +1,6 @@
+{
+    "port": "COM5",
+    "board": "esp32:esp32:esp32",
+    "sketch": "kegiatan1.ino",
+    "output": "build/"
+}
