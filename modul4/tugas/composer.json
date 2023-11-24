@@ -1,0 +1,24 @@
+{
+    "name": "nizar/pirdas4",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Nizar",
+            "email": "mnizarzr@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload -o"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "hhxsv5/php-sse": "~2.0"
+    }
+}
